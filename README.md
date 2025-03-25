@@ -1,4 +1,4 @@
- # Spring Boot Department API with Kong API Gateway & Rate Limiting
+ # Spring Boot Department API with Kong JWT Authentication (DB-Backed Mode)
 
 ## 🚀Overview
 This project is a **Spring Boot REST API** for managing department data. It integrates **Kong API Gateway** as a reverse proxy and security layer, running in **DB-Backed Mode with PostgreSQL**. The **JWT Plugin** is enabled to handle authentication **without modifying the application code**.
