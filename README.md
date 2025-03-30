@@ -243,7 +243,7 @@ curl -i -X POST http://localhost:8001/services --data "name=department-service" 
 ```
 **Note**: This registers a new service in Kong called `"department-service"` and stores the configuration in Kong's database.  
 
-2. Create a Route for `/api/v1/departments`:  
+2. Create a Route for `/api/v1/departments`  
 - Now, expose the API by defining a route:  
 ```bash
 curl -i -X POST http://localhost:8001/services/department-service/routes --data "name=department-route" --data "paths[]=/api/v1/departments"
