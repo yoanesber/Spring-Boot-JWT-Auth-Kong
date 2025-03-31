@@ -349,7 +349,7 @@ F6gGrmGLi7VLpoaJNDUVztjssptmj23q
 eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ4QlNDV3NJNnFKTEJNdXl2M3M3T1FWdUxVNUo3RUlFYSIsInVzZXJuYW1lIjoiY2hhbm5lbDEiLCJpYXQiOjE3MTE4MDAwMDAsImV4cCI6MTcxMTgzNjAwMH0.YuTP87HXLHcXRI1JY1VIC8l89uVSSX5_0IvWTTntQWc
 ```
 
-6. Create and Sign a JWT Token  
+6. Test the API with JWT Token via Kong  
 Once the JWT token is generated, send a request to your API through Kong:  
 
 ```bash
